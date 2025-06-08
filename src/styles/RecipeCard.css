@@ -1,0 +1,21 @@
+/* RecipeCard.css */
+.actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .actions button,
+  .actions a {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .actions button:hover,
+  .actions a:hover {
+    background-color: #555;
+  }

@@ -1,0 +1,58 @@
+.recipe-detail {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .recipe-detail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .recipe-detail p {
+    text-align: left;
+    margin-top: 20px;
+  }
+  .recipe-card:last-child {
+  margin-bottom: 120px; /* pushes content above the footer */
+}
+
+
+
+  recipe-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+     gap: 3rem;
+  }
+  
+  .edit-btn {
+    background-color: gray; 
+    color: white;
+   
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049; 
+  }
+  
+  .delete-btn {
+    background-color: gray;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f; 
+  }
+
+  
