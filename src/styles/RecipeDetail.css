@@ -6,12 +6,13 @@
   .recipe-detail img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
   }
   
   .recipe-detail p {
     text-align: left;
     margin-top: 20px;
+    margin-bottom: 50px;
   }
   .recipe-card:last-child {
   margin-bottom: 120px; /* pushes content above the footer */
